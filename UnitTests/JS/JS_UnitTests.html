@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Calculator Unit Tests</title>
+    <link rel="stylesheet" href="qunit-2.0.1.css" />
+    <script src="qunit-2.0.1.js"></script>
+    <script src="../../Task1_5/JS/Calculator.js"></script>
+</head>
+<body>
+    <div id="qunit"></div>
+</body>
+</html>
+
+<script>
+    QUnit.test("Calculator Unit Tests", function (assert) 
+    {
+        assert.ok(OnClick("123", "123", "+") == "246", "Passed!");
+        assert.ok(OnClick("23", "-12", "-") == "35", "Passed!");
+        assert.ok(OnClick("25", "25", "*") == "625", "Passed!");
+        assert.ok(OnClick("256", "4", "/") == "64", "Passed!");
+        assert.ok(OnClick("12.3", "1.23", "+") == "13.53", "Passed!");
+        assert.ok(OnClick("2.3", "-1.2", "-") == "3.5", "Passed!");
+        assert.ok(OnClick("25.25", "25.25", "*") == "637.5625", "Passed!");
+        assert.ok(OnClick("256.256", "64", "/") == "4.004", "Passed!");
+        assert.ok(OnClick("123", "123", "%") == "SignException", "Passed!");
+        assert.throws(OnClick("abc", "123", "+"));
+    });
+</script>

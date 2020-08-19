@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multichat_Server", "Multichat\Multichat_Server.csproj", "{062829F3-622D-483B-B00D-9AFA1514F6B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multichat_Client", "Multichat_Client\Multichat_Client.csproj", "{9486D05D-A06B-4BA6-BCB9-9C1C2E1667A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multichat_Server_Timer", "Multichat_Server_Timer\Multichat_Server_Timer.csproj", "{ADC7F1C9-CD1D-4E51-9026-FBF3C9F16D82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multichat_Server_ClientThread", "Multichat_Server_ClientThread\Multichat_Server_ClientThread.csproj", "{2FFB663A-993E-4D8B-841B-D5A1ABC0780C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{062829F3-622D-483B-B00D-9AFA1514F6B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{062829F3-622D-483B-B00D-9AFA1514F6B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{062829F3-622D-483B-B00D-9AFA1514F6B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{062829F3-622D-483B-B00D-9AFA1514F6B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9486D05D-A06B-4BA6-BCB9-9C1C2E1667A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9486D05D-A06B-4BA6-BCB9-9C1C2E1667A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9486D05D-A06B-4BA6-BCB9-9C1C2E1667A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9486D05D-A06B-4BA6-BCB9-9C1C2E1667A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADC7F1C9-CD1D-4E51-9026-FBF3C9F16D82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADC7F1C9-CD1D-4E51-9026-FBF3C9F16D82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADC7F1C9-CD1D-4E51-9026-FBF3C9F16D82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADC7F1C9-CD1D-4E51-9026-FBF3C9F16D82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FFB663A-993E-4D8B-841B-D5A1ABC0780C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FFB663A-993E-4D8B-841B-D5A1ABC0780C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FFB663A-993E-4D8B-841B-D5A1ABC0780C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FFB663A-993E-4D8B-841B-D5A1ABC0780C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

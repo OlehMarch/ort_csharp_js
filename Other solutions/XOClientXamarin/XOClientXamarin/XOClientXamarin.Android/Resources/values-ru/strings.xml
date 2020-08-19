@@ -1,0 +1,46 @@
+<resources>
+    <string name="button_login">Вход</string>
+    <string name="button_logout">Выход</string>
+    <string name="edittext_username">Введите имя пользователя</string>
+    <string name="edittext_password">Введите пароль</string>
+    <string name="button_reg">Регистрация</string>
+    <string name="button_auth">Авторизация</string>
+    <string name="button_forgotPass">Забыли пароль?</string>
+    <string name="button_changePass">Смена пароля</string>
+    <string name="button_empty" />
+    <string name="textview_statusbar">Тип фигуры:</string>
+    <string name="button_exit">Выход</string>
+    <string name="edittext_newPassword">Введите новый пароль</string>
+    <string name="textview_lobby_statusbar">Ожидание подключения к серверу...</string>
+    <string name="textview_lobby_statusbar_name">Ваше имя:</string>
+    <string name="lobby_list_item_name">Имя</string>
+
+    <string name="status_waiting_for_connection">Ожидание подключения к серверу...</string>
+    <string name="status_connected_to_server">Подключен к серверу</string>
+    <string name="status_player_name">Ваше имя:</string>
+    <string name="dialog_cancel_button">Отмена</string>
+    <string name="dialog_confirm_button">Подтвердить</string>
+
+    <string name="messagebox_invitation_header">Приглашение</string>
+    <string name="messagebox_invitation_message">Вы хотите сыграть с</string>
+    <string name="messagebox_game_over_header">Игра окончена</string>
+    <string name="messagebox_game_over_message">Игрок покинул игру. Вы победили!</string>
+    <string name="changepass_dialog_header">Смена пароля</string>
+    <string name="messagebox_passretrieval_dialog_header">Проблема восстановления пароля</string>
+    <string name="messagebox_passretrieval_dialog_message">Неверный почтовый адрес</string>
+    <string name="passretrieval_dialog_header">Восстановление пароля</string>
+    <string name="passretrieval_dialog_message">Введите почту для восстановления вашего пароля:</string>
+    <string name="messagebox_forgotpass_header">Проблема восстановления пароля</string>
+    <string name="messagebox_forgotpass_message">Вам следует сначала ввести логин!</string>
+    <string name="messagebox_auth_header">Проблема авторизации</string>
+    <string name="messagebox_auth_message">Неправильный логин и/или пароль!</string>
+    <string name="messagebox_reg_header">Проблема регистрации</string>
+    <string name="messagebox_reg_message">Логин уже существует!</string>
+    <string name="messagebox_invitation_box_header">Приглашение</string>
+    <string name="messagebox_invitation_box_message_l">Игрок</string>
+    <string name="messagebox_invitation_box_message_r">хочет сыграть с вами!</string>
+    <string name="messagebox_changepass_dialog_success_message">Пароль успешно сменен!</string>
+    <string name="messagebox_changepass_dialog_error_message">Неправильный логин и/или пароль!</string>
+    <string name="messagebox_invitation_feedback_header">Проблема приглашения в игру</string>
+    <string name="messagebox_invitation_feedback_message">Отказ в игровой сессии</string>
+</resources>

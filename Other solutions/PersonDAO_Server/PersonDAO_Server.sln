@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonDAO_Server", "PersonDAO_Server\PersonDAO_Server.csproj", "{0D8DC1D6-9C33-402C-B7EF-18649E894BB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonDAO_Client", "PersonDAO_Client\PersonDAO_Client.csproj", "{92D45564-B1BF-4CB6-AFD7-51573E0A023D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonDAO", "PersonDAO\PersonDAO.csproj", "{722BF57C-6105-4BA0-BC8D-E3ADAF273A78}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D8DC1D6-9C33-402C-B7EF-18649E894BB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D8DC1D6-9C33-402C-B7EF-18649E894BB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D8DC1D6-9C33-402C-B7EF-18649E894BB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D8DC1D6-9C33-402C-B7EF-18649E894BB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92D45564-B1BF-4CB6-AFD7-51573E0A023D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92D45564-B1BF-4CB6-AFD7-51573E0A023D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92D45564-B1BF-4CB6-AFD7-51573E0A023D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92D45564-B1BF-4CB6-AFD7-51573E0A023D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{722BF57C-6105-4BA0-BC8D-E3ADAF273A78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{722BF57C-6105-4BA0-BC8D-E3ADAF273A78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{722BF57C-6105-4BA0-BC8D-E3ADAF273A78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{722BF57C-6105-4BA0-BC8D-E3ADAF273A78}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

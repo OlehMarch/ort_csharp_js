@@ -1,0 +1,15 @@
+﻿<UserControl x:Class="PainterWPF.UserControls.Menu.ToolBoxVector"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:PainterWPF.UserControls.Menu"
+             mc:Ignorable="d" 
+             d:DesignHeight="80.721" d:DesignWidth="90.89">
+    <StackPanel Focusable="False">
+        <Button Focusable="False" x:Name="ToolBar_Color" Content="Color"/>
+        <Button Focusable="False" x:Name="ToolBar_PenWidth" Content="Pen Width"/>
+        <Button Focusable="False" x:Name="ToolBar_ShapeType" Content="Shape Type"/>
+        <Button Focusable="False" x:Name="ToolBar_SaveLoad" Content="Save / Load" Click="ToolBar_SaveLoad_Click"/>
+    </StackPanel>
+</UserControl>

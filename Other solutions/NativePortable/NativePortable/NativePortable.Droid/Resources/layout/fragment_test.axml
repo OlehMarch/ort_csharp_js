@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16px"
+    android:paddingLeft="16px"
+    android:paddingRight="16px"
+    android:paddingTop="16px"
+    tools:context="com.example.adm.realm.MainActivity">
+    <EditText
+        android:hint="@string/ma_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/main_activity_etId" />
+    <EditText
+        android:hint="@string/ma_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/main_activity_etName"
+        android:layout_below="@id/main_activity_etId" />
+    <EditText
+        android:hint="@string/ma_lastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/main_activity_etLastName"
+        android:layout_below="@id/main_activity_etName" />
+    <EditText
+        android:hint="@string/ma_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/main_activity_etAge"
+        android:layout_below="@id/main_activity_etLastName" />
+    <EditText
+        android:hint="@string/ma_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/main_activity_etPhone"
+        android:layout_below="@id/main_activity_etAge" />
+    <EditText
+        android:hint="@string/ma_mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/main_activity_etMail"
+        android:layout_below="@id/main_activity_etPhone" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/main_activity_bCreate"
+        android:text="@string/ma_bCreate"
+        android:layout_alignParentBottom="true" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/main_activity_bRead"
+        android:text="@string/ma_bRead"
+        android:layout_toEndOf="@id/main_activity_bCreate"
+        android:layout_alignParentBottom="true" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/main_activity_bUpdate"
+        android:text="@string/ma_bUpdate"
+        android:layout_toEndOf="@id/main_activity_bRead"
+        android:layout_alignParentBottom="true" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/main_activity_bDelete"
+        android:text="@string/ma_bDelete"
+        android:layout_toEndOf="@id/main_activity_bUpdate"
+        android:layout_alignParentBottom="true" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/main_activity_bReadAll"
+        android:text="@string/ma_bReadAll"
+        android:layout_above="@id/main_activity_bRead"
+        android:layout_toEndOf="@id/main_activity_bCreate" />
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/main_activity_etMail"
+        android:id="@+id/main_activity_spinnerDB" />
+</RelativeLayout>

@@ -1,0 +1,17 @@
+﻿<script src="FileSaver.min.js"></script>
+
+<p>
+    Width: 
+    <input id="Width" type="range" value="1" min="1" max="100" onchange="SetWidth(Width.value)"/>
+</p>
+<p>
+    Color: 
+	<input id="Color" type="color" onchange="SetColor(Color.value)"/>
+</p>
+<p>
+    <button id="Save" type="button" onclick="SaveFile()">Save</button>
+    <button id="Load" type="button" onclick="LoadFile()">Load</button>
+</p>
+<canvas height='320' width='480' id="canvas" style="border: 2px solid black"></canvas>
+
+<script src="MiniPaint.js"></script>

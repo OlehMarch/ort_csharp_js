@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">NativePortable.Droid</string>
+  <string name="ma_id">Put id</string>
+  <string name="ma_name">Put name</string>
+  <string name="ma_lastName">Put last name</string>
+  <string name="ma_age">Put age</string>
+  <string name="ma_phone">Put phone number</string>
+  <string name="ma_mail">Put e-mail</string>
+  <string name="ma_bCreate">Create</string>
+  <string name="ma_bRead">Read</string>
+  <string name="ma_bUpdate">Update</string>
+  <string name="ma_bDelete">Delete</string>
+  <string name="ma_bReadAll">Read all</string>
+  <string name="button_exit">Back</string>
+</resources>

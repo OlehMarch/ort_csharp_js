@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+  <TextView
+      android:hint="@string/ma_id"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/adapter_item_tvId" />
+
+  <TextView
+      android:hint="@string/ma_name"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/adapter_item_tvName"
+      android:layout_below="@id/adapter_item_tvId" />
+
+  <TextView
+      android:hint="@string/ma_lastName"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/adapter_item_tvLastName"
+      android:layout_below="@id/adapter_item_tvName" />
+
+  <TextView
+      android:hint="@string/ma_age"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/adapter_item_tvAge"
+      android:layout_below="@id/adapter_item_tvLastName" />
+
+  <TextView
+      android:hint="@string/ma_phone"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/adapter_item_tvPhone"
+      android:layout_below="@id/adapter_item_tvAge" />
+
+  <TextView
+      android:hint="@string/ma_mail"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/adapter_item_tvMail"
+      android:layout_below="@id/adapter_item_tvPhone" />
+  
+</LinearLayout>

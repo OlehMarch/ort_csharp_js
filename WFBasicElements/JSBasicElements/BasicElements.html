@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>article</title>
+    </head>
+    <body>
+        <header>
+            <h1>This is header</h1>
+        </header>
+        <aside>
+            <p>This is text in tag P in ASIDE tag</p>
+        </aside>
+        <article>
+            This is article
+        </article>
+        <p>
+            This is audio tag
+            <audio controls>
+                <source src="audio/music.mp3" type="audio/mpeg">
+            </audio>
+        </p>
+        <p><strong>This is menu tag:</strong></p>
+        <menu>
+            <li>menu item 1</li>
+            <li>menu item 2</li>
+            <li>menu item 3</li>
+        </menu>
+        <p>
+            This is audio tag
+            <video width="532" height="55" controls="controls" poster="video/duel.jpg">
+                <source src="video/duel.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+            </video>
+        </p>
+        <p>This is time tag: <time>2016-12-26</time></p>
+        <p>
+            This is canvas tag
+            <canvas id="canvas" width="532" height="55" style="outline: 1px solid red"></canvas>
+        </p>
+        <p>This is <var>var tag</var></p>
+        <p>This is <code>code_tag</code></p>
+        <p>This is form tag</p>
+        <form style="outline: 1px solid red" oninput="result.value=(cm.value/2).toFixed(2)">
+            <p>
+                This is input
+                <input type="number" name="cm" autofocus>
+            </p>
+            <p>This is output <output name="result">0</output></p>
+        </form>
+        <p>This is details and summary tags</p>
+        <details>
+            <summary>Some summary</summary>
+            <p>Some text</p>
+        </details>
+        <p>This is <mark>mark tag</mark></p>
+        <p>This is navigation and link tags</p>
+        <nav>
+            <a href="1.html">1</a> | <a href="2.html">2</a> |
+            <a href="3.html">3</a> | <a href="4.html">4</a>
+        </nav>
+        <p>This is meter tag</p>
+        <meter value="0" max="100" low="10" high="60">Low</meter>
+        <meter value="30" max="100" low="10" high="60">Normal</meter>
+        <meter value="80" max="100" low="10" high="60">High</meter>
+        <p>This is figure and img tags</p>
+        <figure>
+            <p><img width="100" height="100" src="images/thumb1.jpg" alt="" /></p>
+            <figcaption>Figcaption tag text</figcaption>
+        </figure>
+        <p>This is datalist and option tags</p>
+        <p>
+            <input list="numbers">
+            <datalist id="numbers">
+                <option value="11"></option>
+                <option value="12"></option>
+                <option value="13"></option>
+            </datalist>
+        </p>
+        <p>This is textarea tag</p>
+        <textarea rows="3" cols="64" name="text"></textarea>
+        <p>This is <strong>strong</strong>, <em>cursive</em>, <u>underlined</u> tags</p>
+    </body>
+</html>

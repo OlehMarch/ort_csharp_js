@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/frameLayout1">
+    <TextView
+        android:text=""
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="@color/black"
+        android:id="@+id/textView1"
+        android:background="@color/white" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/buttonsFrameLayout"
+        android:layout_below="@id/textView1"
+        android:layout_marginTop="50dp">
+        <Button
+            android:text="1"
+            style="@style/style_btn"
+            android:id="@+id/num1_btn" />
+        <Button
+            android:text="2"
+            style="@style/style_btn"
+            android:id="@+id/num2_btn"
+            android:layout_toRightOf="@id/num1_btn" />
+        <Button
+            android:text="3"
+            style="@style/style_btn"
+            android:id="@+id/num3_btn"
+            android:layout_toRightOf="@id/num2_btn" />
+        <Button
+            android:text="+"
+            style="@style/style_btn"
+            android:id="@+id/add_btn"
+            android:layout_toRightOf="@id/num3_btn" />
+        <Button
+            android:text="4"
+            style="@style/style_btn"
+            android:id="@+id/num4_btn"
+            android:layout_below="@id/num1_btn" />
+        <Button
+            android:text="5"
+            style="@style/style_btn"
+            android:id="@+id/num5_btn"
+            android:layout_below="@id/num2_btn"
+            android:layout_toRightOf="@id/num4_btn" />
+        <Button
+            android:text="6"
+            style="@style/style_btn"
+            android:id="@+id/num6_btn"
+            android:layout_below="@id/num3_btn"
+            android:layout_toRightOf="@id/num5_btn" />
+        <Button
+            android:text="-"
+            style="@style/style_btn"
+            android:id="@+id/sub_btn"
+            android:layout_below="@id/add_btn"
+            android:layout_toRightOf="@id/num6_btn" />
+        <Button
+            android:text="7"
+            style="@style/style_btn"
+            android:id="@+id/num7_btn"
+            android:layout_below="@id/num4_btn" />
+        <Button
+            android:text="8"
+            style="@style/style_btn"
+            android:id="@+id/num8_btn"
+            android:layout_below="@id/num5_btn"
+            android:layout_toRightOf="@id/num7_btn" />
+        <Button
+            android:text="9"
+            style="@style/style_btn"
+            android:id="@+id/num9_btn"
+            android:layout_below="@id/num6_btn"
+            android:layout_toRightOf="@id/num8_btn" />
+        <Button
+            android:text="*"
+            style="@style/style_btn"
+            android:id="@+id/mul_btn"
+            android:layout_below="@id/sub_btn"
+            android:layout_toRightOf="@id/num9_btn" />
+        <Button
+            android:text="0"
+            style="@style/style_btn"
+            android:id="@+id/num0_btn"
+            android:layout_below="@id/num8_btn" />
+        <Button
+            android:text="/"
+            style="@style/style_btn"
+            android:id="@+id/div_btn"
+            android:layout_below="@id/num9_btn"
+            android:layout_toRightOf="@id/num0_btn" />
+        <Button
+            android:text="="
+            style="@style/style_btn"
+            android:id="@+id/equals_btn"
+            android:layout_below="@id/mul_btn"
+            android:layout_toRightOf="@id/div_btn" />
+        <Button
+            android:text="Clear"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:id="@+id/clear_btn"
+            android:layout_toRightOf="@id/sub_btn" />
+        <Button
+            android:text="Balls"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:id="@+id/add_balls_btn"
+            android:layout_toRightOf="@id/clear_btn" />
+      <Button
+            android:text="Start"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:id="@+id/timer_btn"
+            android:layout_toRightOf="@id/clear_btn"
+            android:layout_below="@id/add_balls_btn" />
+      <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="#ffffff"
+        android:layout_below="@id/num0_btn"
+        android:id="@+id/imgView"/>
+    </RelativeLayout>
+</FrameLayout>

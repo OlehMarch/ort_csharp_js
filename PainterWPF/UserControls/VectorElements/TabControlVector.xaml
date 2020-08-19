@@ -1,0 +1,19 @@
+﻿<UserControl x:Class="PainterWPF.UserControls.VectorElements.TabControlVector"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:PainterWPF.UserControls.VectorElements"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <TabControl x:Name="tabControl" SelectionChanged="tabControl_SelectionChanged">
+        <TabItem x:Name="NewPage" Header="NewPage">
+            <TabItem.ContextMenu>
+                <ContextMenu x:Name="TabItemContextMenu">
+                    <MenuItem x:Name="ContextMenu_Close" Header="Close" Click="ContextMenu_Close_Click"/>
+                </ContextMenu>
+            </TabItem.ContextMenu>
+            <local:CanvasVector x:Name="canvasVector" Focusable="True" Margin="3" BorderThickness="1" BorderBrush="DarkGray"></local:CanvasVector>
+        </TabItem>
+    </TabControl>
+</UserControl>

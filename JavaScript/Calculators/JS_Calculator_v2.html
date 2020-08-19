@@ -1,0 +1,42 @@
+﻿<script src="Calculator.js"></script>
+<style>
+    .button {
+        font-size: 20px;
+        width: 40px;
+        height: 40px;
+    }
+    .longElement {
+        font-size: 20px;
+        width: 128px;
+        height: 40px;
+    }
+</style>
+
+<div>
+    <p>
+        <input type="text" id="TB_R" class="longElement" value="0">
+        <button id="B_Calc" class="button" onclick="TB_R.value = B_Calc_Click(TB_R.value)">=</button>
+    </p>
+    <p>
+        <button id="B_1" class="button" onclick="TB_R.value = NumericButton_Click('1', TB_R.value)">1</button>
+        <button id="B_2" class="button" onclick="TB_R.value = NumericButton_Click('2', TB_R.value)">2</button>
+        <button id="B_3" class="button" onclick="TB_R.value = NumericButton_Click('3', TB_R.value)">3</button>
+        <button id="B_Plus" class="button" onclick="B_Operation_Click('+', TB_R.value)">+</button>
+    </p>
+    <p>
+        <button id="B_4" class="button" onclick="TB_R.value = NumericButton_Click('4', TB_R.value)">4</button>
+        <button id="B_5" class="button" onclick="TB_R.value = NumericButton_Click('5', TB_R.value)">5</button>
+        <button id="B_6" class="button" onclick="TB_R.value = NumericButton_Click('6', TB_R.value)">6</button>
+        <button id="B_Minus" class="button" onclick="B_Operation_Click('-', TB_R.value)">-</button>
+    </p>
+    <p>
+        <button id="B_7" class="button" onclick="TB_R.value = NumericButton_Click('7', TB_R.value)">7</button>
+        <button id="B_8" class="button" onclick="TB_R.value = NumericButton_Click('8', TB_R.value)">8</button>
+        <button id="B_9" class="button" onclick="TB_R.value = NumericButton_Click('9', TB_R.value)">9</button>
+        <button id="B_Mul" class="button" onclick="B_Operation_Click('*', TB_R.value)">*</button>
+    </p>
+    <p>
+        <button id="B_0"  class="longElement" onclick="TB_R.value = NumericButton_Click('0', TB_R.value)">0</button>
+        <button id="B_Div" class="button" onclick="B_Operation_Click('/', TB_R.value)">/</button>
+    </p>
+</div>

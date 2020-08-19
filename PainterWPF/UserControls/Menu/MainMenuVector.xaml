@@ -1,0 +1,16 @@
+﻿<UserControl x:Class="PainterWPF.UserControls.Menu.MainMenuVector"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:PainterWPF.UserControls.Menu"
+             mc:Ignorable="d" 
+             d:DesignHeight="22.246" d:DesignWidth="279.661">
+    <Menu Focusable="False" x:Name="menu">
+        <MenuItem Focusable="False" x:Name="MenuItem_File" Header="File" Height="22" Click="MenuItem_File_Click"/>
+        <MenuItem Focusable="False" x:Name="MenuItem_Color" Header="Color" Height="22"/>
+        <MenuItem Focusable="False" x:Name="MenuItem_PenWidth" Header="Pen Width" Height="22"/>
+        <MenuItem Focusable="False" x:Name="MenuItem_ShapeType" Header="Shape Type" Height="22"/>
+        <MenuItem Focusable="False" x:Name="MenuItem_Window" Header="Window" Height="22"/>
+    </Menu>
+</UserControl>

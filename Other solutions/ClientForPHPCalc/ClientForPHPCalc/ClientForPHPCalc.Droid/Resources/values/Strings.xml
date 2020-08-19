@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">ClientForPHPCalc.Droid</string>
+  <string name="value1">Put value</string>
+  <string name="operation">Put operation sign</string>
+  <string name="result">Result</string>
+  <string name="calculate">Calculate</string>
+</resources>

@@ -1,0 +1,22 @@
+﻿<script src="svg.min.js"></script>
+<script src="FileSaver.min.js"></script>
+
+<body>
+    <p>
+        Width:
+        <input id="Width" type="range" value="1" min="1" max="100" onchange="SetWidth(Width.value)" />
+    </p>
+    <p>
+        Color:
+        <input id="Color" type="color" onchange="SetColor(Color.value)" />
+    </p>
+    <p>
+        <button id="Save" type="button" onclick="SaveFile()">Save</button>
+        <input id="Load" type="file" onclick="LoadFile(Load.value)"/>
+    </p>
+    <svg id="svg" width="500" height="500" style="border: 2px solid black">
+        <path id="path" d="" fill="none" stroke-width="4" stroke="#000000"></path>
+    </svg>
+</body>
+
+<script src="MiniPaintSVG.js"></script>
